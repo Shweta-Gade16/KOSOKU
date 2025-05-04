@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
   return (
     <div
       className="w-full px-6 py-16 bg-cover bg-center bg-no-repeat flex flex-col justify-center items-center gap-4 overflow-hidden"
-      style={{ backgroundImage: "url('/footer-bg.png')" }}
+      style={{ backgroundImage: "url('/Footer-bg.png')" }}
     >
       <div className="w-full max-w-[1216px]  flex flex-col gap-16">        
         <div className="flex flex-col md:flex-row gap-8">
