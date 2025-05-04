@@ -57,7 +57,7 @@ const Footer: React.FC = () => {
               2nd Floor, Aditi Commerce, Baner, Pune, Maharashtra, India
             </p>
             <button className="w-[121px] h-[41px] px-4 py-3 bg-white/25 rounded-lg flex justify-center items-center gap-2 hover:bg-white/50">
-              <span className="text-white text-sm md:text-lg font-semibold font-['Poppins'] leading-none">
+              <span className="text-white text-sm  font-semibold font-Poppins leading-[120%] tracking-normal ">
                 Get in Touch
               </span>
             </button>
