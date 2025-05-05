@@ -140,29 +140,32 @@ export default function Home() {
       gradientTo: "#D4342B",
     },
   ];
-
+ 
+const logos = [
+  "/Logo_1.png",
+  "/Logo_2.png",
+  "/Logo_3.png",
+  "/Logo_4.png",
+  "/Logo_5.png",
+  "/Logo_6.png",
+];
+  
   return (
-    <>
+    <div className="w-full ">
       <div className="w-full min-h-screen bg-cover bg-center bg-no-repeat bg-[url('/bg.png')] relative overflow-hidden">
         <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-        <section
-      className="relative z-10 max-w-[1440px] mx-auto w-full px-5 md:px-10 pt-24 pb-[200px]"
-      aria-label="Hero Section"
-    >
+        <section className="relative z-10 max-w-[1440px] mx-auto w-full px-5 md:px-10 pt-24 pb-[200px]"
+           aria-label="Hero Section">
       <div className="flex flex-col md:flex-row flex-wrap gap-8 items-center md:items-start">
         <div className="w-full md:max-w-[1070px] flex flex-col gap-6 p-4 text-center md:text-left">
-          <div
-            className="w-full md:w-[336px] h-[32px] rounded-[4px] flex items-center justify-center md:justify-start bg-[#FFFFFF1A] px-5 py-2"
-          >
+          <div className="w-full md:w-[336px] h-[32px] rounded-[4px] flex items-center justify-center  bg-[#FFFFFF1A] px-5 py-2" >
             <span
               className="orbitron-font flex items-center gap-4 text-white text-[12px] font-bold leading-none tracking-[0.55em] uppercase text-nowrap"
-              aria-hidden="true"
-            >
+              aria-hidden="true">
               <PiStarFourFill className="w-4 h-4" />
               Welcome To Kosoku
             </span>
           </div>
-
           <div className="flex flex-col md:items-start text-left md:text-left space-y-6">
             <h1 className="font-poppins font-semibold text-[48px] leading-[120%] text-white">
               Automate Structural Detailing—<br/> Build Smarter, Deliver Flawlessly!
@@ -174,8 +177,7 @@ export default function Home() {
               type="button"
               className="w-full sm:w-[307px] h-[58px] flex items-center justify-center gap-2 px-6 py-4 font-poppins font-semibold text-[16px] text-[#020961] bg-white border border-[#02096126] rounded-lg transition-all duration-300 ease-out hover:bg-gray-100 text-nowrap  mt-6"
               onClick={() => console.log("Button clicked!")}
-              aria-label="Talk to an Automation Expert"
-            >
+              aria-label="Talk to an Automation Expert">
               Talk to an Automation Expert
               <ArrowRight className="text-[#D95DFB] w-4 h-4" />
             </button>
@@ -183,10 +185,9 @@ export default function Home() {
         </div>
       </div>
     </section>
-
       </div>
       <div className="relative z-30 -mt-16 sm:-mt-20 lg:-mt-24 px-8 sm:px-8 md:px-8 flex justify-center">
-        <LogoSlider />
+      <LogoSlider logos={logos} />
       </div>
       <section className="relative max-w-[1440px] mx-auto w-full px-4 sm:px-6 md:px-10 py-16 flex flex-col gap-16 bg-white z-10">
             <div className="flex flex-col sm:flex-col lg:flex-row w-full max-w-[1216px] gap-8 lg:gap-16 mx-auto">
@@ -216,9 +217,7 @@ export default function Home() {
                   You deserve automation that works for you.
                 </p>
                 <button
-                  className="w-full lg:w-auto h-[58px] px-6 py-3 rounded-[8px] bg-[#020961] text-white font-poppins font-semibold text-[14px] sm:text-[16px] leading-[160%] transition-transform duration-[300ms] ease-out hover:scale-105 flex items-center justify-center"
-                  onClick={() => window.location.href = '/about-us'}
-                >
+                  className="w-full lg:w-auto h-[58px] px-6 py-3 rounded-[8px] bg-[#020961] text-white font-poppins font-semibold text-[14px] sm:text-[16px] leading-[160%] transition-transform duration-[300ms] ease-out hover:scale-105 flex items-center justify-center">
                   Talk to a Detailing Automation Expert
                   <ArrowRight className="ml-2 text-[#D95DFB] w-[16px] h-[16px]" />
                 </button>
@@ -233,6 +232,7 @@ export default function Home() {
                   We build plug-and-play Tekla tools, macros, and APIs that reduce manual work, speed up delivery, and help you scale operations with ease. We solve structural steel problems with automation.
                 </p>
               </div>
+             
               <div className="flex flex-col w-full lg:w-1/2 gap-6">
                 <div className="flex flex-wrap justify-center lg:justify-start gap-4 sm:gap-6">
                   <StaticCard
@@ -260,6 +260,8 @@ export default function Home() {
                   />
                 </div>
               </div>
+
+
             </div>
               <div className="max-w-full px-[20px] sm:px-[40px] flex flex-col lg:flex-row gap-[32px]">
                   <div className="w-full lg:w-[592px] flex justify-center items-center">
@@ -283,8 +285,8 @@ export default function Home() {
                        <p className="opacity-80 font-poppins font-normal text-[14px] lg:text-[16px] leading-[160%] tracking-normal text-[#040404] text-center lg:text-left">
                          Kosoku is a Tekla Partners Program Member, recognized for delivering cutting-edge automation solutions that enhance efficiency in structural detailing automation. Our expertise in Tekla Structures allows us to develop powerful plugins that reduce manual work, streamline workflows, and improve project accuracy.
                        </p>
-                     </div>
-                   </div>
+               </div>
+            </div>
       </section>
       <div className="w-full">
       <section className="w-full px-4 sm:px-6 lg:px-10 pt-28 pb-56 bg-[#F7F9F8] flex flex-col items-center">
@@ -317,9 +319,7 @@ export default function Home() {
               Want us to evaluate your workflow for free?
             </h2>
           </div>
-          <ButtonPurple label={"Request a Free Workflow Audit"} onClick={function (): void {
-                  throw new Error("Function not implemented.");
-                } }/>
+          <ButtonPurple label={"Request a Free Workflow Audit"} />
         </div>
       </section>
       <div className="w-full flex justify-center relative mt-[-120px]">
@@ -329,8 +329,7 @@ export default function Home() {
             backgroundImage: 'url("/IntegrationBG.png")',
             backgroundSize: "cover",
             backgroundPosition: "center",
-          }}
-        >
+          }}>
           <div className="max-w-[488px] h-[290px] gap-[32px] text-white">
             <h2 className="font-poppins font-semibold text-[24px] sm:text-[32px] lg:text-[40px] leading-[120%]">
               Worried about integration?
@@ -350,25 +349,23 @@ export default function Home() {
       </div>
       <div className="w-full h-auto px-4 sm:px-8 md:px-10 pt-[128px] pb-[128px] bg-white">
         <div className="w-full  flex flex-col items-center gap-[80px] bg-white">
-          <div className="w-full sm:w-[592px] h-auto flex flex-col gap-[32px] text-center">
+          <div className="w-full  h-auto flex flex-col gap-[32px] text-center">
             <h3 className="font-poppins font-semibold text-[32px] sm:text-[40px] md:text-[48px] leading-[120%] tracking-normal text-[#040404]">
               What You Get When You Work With Kosoku
             </h3>
           </div>
-          <div className="w-full max-w-[1216px] mx-auto flex flex-col gap-[32px]">
-      <div className="flex flex-wrap justify-between gap-[32px]">
-        {features.slice(0, 3).map((feature, index) => (
-          <FeatureCard key={index} icon={feature.icon} text={feature.text} />
-        ))}
-      </div>
-      <div className="flex flex-wrap justify-center sm:justify-center gap-[32px]">
-        {features.slice(3).map((feature, index) => (
-          <FeatureCard key={index} icon={feature.icon} text={feature.text} />
-        ))}
-      </div>
-    </div>
+          <div className="w-full max-w-[1216px] mx-auto flex flex-wrap gap-8 justify-center">
+            {features.map((feature, index) => (
+              <div
+                key={index}
+                className="w-full sm:w-[calc(50%-16px)] md:w-[calc(100% - 564px)] lg:w-[calc(25%-12px)]"
+              >
+                <FeatureCard icon={feature.icon} text={feature.text} />
+              </div>
+            ))}
+          </div>
           <div className="w-full max-w-[703px] h-auto flex flex-col items-center gap-6 px-4 sm:px-0">
-        <div className="w-full flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8">
+        <div className="w-full flex flex-col sm:flex-row items-center justify-center gap-4 ">
           <div className="flex items-center gap-4">
             <IoMdCheckmark className="w-5 h-5 text-[#D95DFB]" />
             <h2 className="opacity-80 text-black text-base font-normal font-poppins leading-[160%] text-center sm:text-left">
@@ -384,8 +381,7 @@ export default function Home() {
         </div>
         <div className="w-full flex justify-center mt-4">
           <button
-            className="w-[212px] h-[58px] rounded-md bg-[#020961] text-white font-poppins font-semibold text-base sm:text-lg leading-[160%] transition-transform duration-300 ease-out hover:scale-105 flex items-center justify-center"
-          >
+            className="w-[212px] h-[58px] rounded-md bg-[#020961] text-white font-poppins font-semibold text-base sm:text-lg leading-[160%] transition-transform duration-300 ease-out hover:scale-105 flex items-center justify-center">
             <span className="flex items-center justify-center">
               Talk to our Expert
             </span>
@@ -453,6 +449,6 @@ export default function Home() {
       </div>
 <Form/>
 <Footer/>
-    </>
+    </div>
   );
 }

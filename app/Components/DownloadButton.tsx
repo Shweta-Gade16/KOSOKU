@@ -14,7 +14,7 @@ const DownloadButton: React.FC<DownloadButtonProps> = ({ text }) => {
         flex justify-center items-center gap-[8px] transition-all duration-300 ease-out
         ${isHovered
           ? "bg-[#020961] hover:bg-gradient-to-t hover:from-[#020961] hover:to-[#D95DFB40] gap-[16px]" 
-          : "bg-[#020961]"} // Default background: Navy Blue
+          : "bg-[#020961]"} 
       `}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}

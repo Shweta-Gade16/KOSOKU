@@ -1,18 +1,11 @@
-"use client";
-
 import Slider from "react-slick";
 import Image from "next/image";
 
-const logos = [
-  "/Logo_1.png",
-  "/Logo_2.png",
-  "/Logo_3.png",
-  "/Logo_4.png",
-  "/Logo_5.png",
-  "/Logo_6.png",
-];
+interface LogoSliderProps {
+  logos: string[];
+}
 
-export default function LogoSlider() {
+const LogoSlider: React.FC<LogoSliderProps> = ({ logos }) => {
   const settings = {
     infinite: true,
     slidesToShow: 4,
@@ -52,4 +45,6 @@ export default function LogoSlider() {
       </Slider>
     </div>
   );
-}
+};
+
+export default LogoSlider;

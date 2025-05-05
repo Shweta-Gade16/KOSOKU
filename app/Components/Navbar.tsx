@@ -101,11 +101,11 @@ export default function Navbar({ menuOpen, setMenuOpen }: NavbarProps) {
             <li><Link href="/blog" onClick={() => setMenuOpen(false)}>Blog</Link></li>
             <li><Link href="/faq" onClick={() => setMenuOpen(false)}>FAQ</Link></li>
           </ul>
-            <button
-              className="w-[121px] h-[41px] px-4 py-3 flex items-center justify-center gap-2 text-white text-[14px] font-semibold  font-Poppins rounded-lg bg-white/25"
-            >
-              Get in Touch
-            </button>
+          <button className="max-w-[121px] h-[41px] px-4 py-3 bg-white/25 rounded-lg flex justify-center items-center gap-2 hover:bg-white/40 transition-colors">
+          <span className="block text-white text-nowrap text-xs sm:text-sm md:text-base font-semibold font-poppins leading-[120%] tracking-normal text-center">
+            Get in Touch
+          </span>
+        </button>
         </div>
       )}
     </nav>
