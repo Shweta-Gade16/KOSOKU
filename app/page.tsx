@@ -221,44 +221,44 @@ const logos = [
                 </button>
               </div>
             </div>
-            <div className="w-full max-w-[1216px] p-6 sm:p-12 rounded-[16px] bg-[#F7F9F8] mx-auto flex flex-col lg:flex-row gap-8 lg:gap-16">
-              <div className="flex flex-col w-full lg:w-1/2 gap-6">
-                <h1 className="font-poppins font-semibold text-[24px] sm:text-[32px] lg:text-[40px] leading-[120%] text-[#040404] text-center lg:text-left">
-                  Kosoku is your detailing automation partner
-                </h1>
-                <p className="opacity-80 font-poppins text-[14px] sm:text-[16px] leading-[160%] text-[#040404] text-center lg:text-left">
-                  We build plug-and-play Tekla tools, macros, and APIs that reduce manual work, speed up delivery, and help you scale operations with ease. We solve structural steel problems with automation.
-                </p>
+            <div className="w-full max-w-[1216px] p-6 rounded-[16px] bg-[#F7F9F8] mx-auto flex flex-col lg:flex-row gap-8 lg:gap-16">
+            <div className="flex flex-col w-full lg:w-1/2 gap-6">
+              <h1 className="font-poppins font-semibold text-[40px] leading-[120%] text-[#040404] text-center lg:text-left">
+                Kosoku is your detailing automation partner
+              </h1>
+              <p className="opacity-80 font-poppins text-[16px] leading-[160%] text-[#040404] text-center lg:text-left">
+                We build plug-and-play Tekla tools, macros, and APIs that reduce manual work, speed up delivery, and help you scale operations with ease. We solve structural steel problems with automation.
+              </p>
+            </div>
+            <div className="flex flex-col w-full lg:w-1/2 gap-6">
+
+              <div className="flex flex-wrap lg:flex-nowrap justify-center gap-6">
+                <StaticCard
+                  number="100+"
+                  description="Structural Steel Projects Automated"
+                  barColor="bg-[#0979C5]"
+                  textColor="text-[#040404]"
+                  bgColor="bg-white"
+                />
+                <StaticCard
+                  number="70%"
+                  description="Faster Detailing"
+                  barColor="bg-[#00D4E2]"
+                  textColor="text-[#040404]"
+                  bgColor="bg-white"
+                />
               </div>
-             
-              <div className="flex flex-col w-full lg:w-1/2 gap-6">
-                <div className="flex flex-wrap justify-center lg:justify-start gap-4 sm:gap-6">
-                  <StaticCard
-                    number="100+"
-                    description="Structural Steel Projects Automated"
-                    barColor="bg-[#0979C5]"
-                    textColor="text-[#040404]"
-                    bgColor="bg-white"
-                  />
-                  <StaticCard
-                    number="70%"
-                    description="Faster Detailing"
-                    barColor="bg-[#00D4E2]"
-                    textColor="text-[#040404]"
-                    bgColor="bg-white"
-                  />
-                </div>
-                <div className="flex justify-center lg:justify-center">
-                  <StaticCard
-                    number="15+"
-                    description="Clients Scaling Profits"
-                    barColor="bg-[#D95DFB]"
-                    textColor="text-[#040404]"
-                    bgColor="bg-white"
-                  />
-                </div>
+              <div className="flex justify-center">
+                <StaticCard
+                  number="15+"
+                  description="Clients Scaling Profits"
+                  barColor="bg-[#D95DFB]"
+                  textColor="text-[#040404]"
+                  bgColor="bg-white"
+                />
               </div>
             </div>
+          </div>
               <div className="max-w-full px-[20px] sm:px-[40px] flex flex-col lg:flex-row gap-[32px]">
                   <div className="w-full lg:w-[592px] flex justify-center items-center">
                     <div className="w-full max-w-[488px] h-auto flex items-center justify-center">
