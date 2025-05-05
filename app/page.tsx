@@ -158,7 +158,7 @@ const logos = [
            aria-label="Hero Section">
       <div className="flex flex-col md:flex-row flex-wrap gap-8 items-center md:items-start">
         <div className="w-full md:max-w-[1070px] flex flex-col gap-6 p-4 text-center md:text-left">
-          <div className="w-full md:w-[336px] h-[32px] rounded-[4px] flex items-center justify-center  bg-[#FFFFFF1A] px-5 py-2" >
+          <div className="w-full md:w-[336px] h-[32px] rounded-[4px] flex items-center justify-center  bg-[#FFFFFF1A] py-2" >
             <span
               className="orbitron-font flex items-center gap-4 text-white text-[12px] font-bold leading-none tracking-[0.55em] uppercase text-nowrap"
               aria-hidden="true">
