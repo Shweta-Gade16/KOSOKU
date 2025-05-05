@@ -174,13 +174,11 @@ const logos = [
               We help structural detailing professionals eliminate manual work, boost productivity by 70%+, and deliver faster with custom-built automation.
             </p>
             <button
-              type="button"
-              className="w-full sm:w-[307px] h-[58px] flex items-center justify-center gap-2 px-6 py-4 font-poppins font-semibold text-[16px] text-[#020961] bg-white border border-[#02096126] rounded-lg transition-all duration-300 ease-out hover:bg-gray-100 text-nowrap  mt-6"
-              onClick={() => console.log("Button clicked!")}
-              aria-label="Talk to an Automation Expert">
-              Talk to an Automation Expert
-              <ArrowRight className="text-[#D95DFB] w-4 h-4" />
-            </button>
+          type="button"
+          className="mt-15 px-4 py-3 rounded-lg bg-white text-[#020961] font-poppins font-semibold text-[14px] sm:text-[16px] leading-[160%] transition-all duration-300 hover:bg-gray-100 flex items-center">
+          Talk to an Automation Expert
+          <ArrowRight className="ml-2 text-[#D95DFB] w-4 h-4" />
+        </button>
           </div>
         </div>
       </div>
