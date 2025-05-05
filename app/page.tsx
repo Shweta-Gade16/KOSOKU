@@ -174,11 +174,11 @@ const logos = [
               We help structural detailing professionals eliminate manual work, boost productivity by 70%+, and deliver faster with custom-built automation.
             </p>
             <button
-          type="button"
-          className="mt-15 px-4 py-3 rounded-lg bg-white text-[#020961] font-poppins font-semibold text-[14px] sm:text-[16px] leading-[160%] transition-all duration-300 hover:bg-gray-100 flex items-center">
-          Talk to an Automation Expert
-          <ArrowRight className="ml-2 text-[#D95DFB] w-4 h-4" />
-        </button>
+              type="button"
+              className="w-full sm:w-[307px] max-w-[90%] mt-4 sm:mt-6 lg:mt-8 px-4 sm:px-6 md:px-8 py-3 sm:py-4 rounded-lg bg-white text-[#020961] font-poppins font-semibold text-sm sm:text-base md:text-lg leading-[160%] transition-all duration-300 hover:bg-gray-100 flex items-center justify-center">
+              Talk to an Automation Expert
+              <ArrowRight className="ml-2 text-[#D95DFB] w-4 h-4 sm:w-5 sm:h-5" />
+            </button>
           </div>
         </div>
       </div>
@@ -258,8 +258,6 @@ const logos = [
                   />
                 </div>
               </div>
-
-
             </div>
               <div className="max-w-full px-[20px] sm:px-[40px] flex flex-col lg:flex-row gap-[32px]">
                   <div className="w-full lg:w-[592px] flex justify-center items-center">
@@ -277,14 +275,14 @@ const logos = [
                        <h5 className="orbitron-font font-bold text-[12px] leading-[100%] tracking-[0.55em] uppercase text-[#04040480] text-center lg:text-left">
                          TEKLA PARTNERSHIP
                        </h5>
-                       <h1 className="font-poppins font-semibold text-[24px] lg:text-[40px] leading-[120%] tracking-normal text-[#040404] text-center lg:text-left">
-                         Officially Recognized by Tekla® for Cutting-Edge Automation Excellence
-                       </h1>
-                       <p className="opacity-80 font-poppins font-normal text-[14px] lg:text-[16px] leading-[160%] tracking-normal text-[#040404] text-center lg:text-left">
-                         Kosoku is a Tekla Partners Program Member, recognized for delivering cutting-edge automation solutions that enhance efficiency in structural detailing automation. Our expertise in Tekla Structures allows us to develop powerful plugins that reduce manual work, streamline workflows, and improve project accuracy.
-                       </p>
-               </div>
-            </div>
+                <h1 className="font-poppins font-semibold text-[24px] lg:text-[40px] leading-[120%] tracking-normal text-[#040404] text-center lg:text-left">
+                  Officially Recognized by Tekla® for Cutting-Edge Automation Excellence
+                </h1>
+              <p className="opacity-80 font-poppins font-normal text-[14px] lg:text-[16px] leading-[160%] tracking-normal text-[#040404] text-center lg:text-left">
+                  Kosoku is a Tekla Partners Program Member, recognized for delivering cutting-edge automation solutions that enhance efficiency in structural detailing automation. Our expertise in Tekla Structures allows us to develop powerful plugins that reduce manual work, streamline workflows, and improve project accuracy.
+              </p>
+          </div>
+        </div>
       </section>
       <div className="w-full">
       <section className="w-full px-4 sm:px-6 lg:px-10 pt-28 pb-56 bg-[#F7F9F8] flex flex-col items-center">
