@@ -175,7 +175,7 @@ const logos = [
             </p>
             <button
               type="button"
-              className="inline-flex items-center justify-center px-4 py-2 rounded-lg bg-white text-[#020961] font-poppins font-semibold text-sm sm:text-base md:text-lg leading-[160%] transition-all duration-300 hover:bg-gray-100 whitespace-nowrap flex-shrink-0">
+              className="inline-flex items-center justify-center px-6 py-4 rounded-lg bg-white text-[#020961] font-poppins font-semibold text-sm sm:text-base md:text-lg leading-[160%] transition-all duration-300 hover:bg-gray-100 whitespace-nowrap flex-shrink-0">
               Talk to an Automation Expert
               <ArrowRight className="ml-2 text-[#D95DFB] w-4 h-4 sm:w-5 sm:h-5 flex-shrink-0" />
             </button>

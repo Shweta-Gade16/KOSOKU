@@ -75,11 +75,11 @@ const Footer: React.FC = () => {
         </div>
         </div>
         </div>
-        <div className="flex flex-col md:flex-row gap-4 md:justify-between md:items-center">
-          <p className="text-white text-sm sm:text-base md:text-lg text-center md:text-left">
+        <div className="flex flex-col sm:items-start sm:justify-start md:flex-row gap-4 md:justify-between md:items-center">
+          <p className="text-white text-sm sm:text-base md:text-lg text-left">
             2025 Kosoku Technologies Private Limited
           </p>
-          <div className="flex justify-center md:justify-start gap-6">
+          <div className="flex sm:justify-start sm:items-start gap-6">
             <a href="https://facebook.com" target="_blank" aria-label="Facebook">
               <LogoFacebook className="w-6 h-6 text-white hover:text-gray-300" />
             </a>
