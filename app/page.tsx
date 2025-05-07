@@ -221,7 +221,7 @@ const logos = [
                 </button>
               </div>
             </div>
-            <div className="w-full max-w-[1216px] p-6 rounded-[16px] bg-[#F7F9F8] mx-auto flex flex-col lg:flex-row gap-8 lg:gap-16">
+          <div className="w-full max-w-[1216px] p-6 rounded-[16px] bg-[#F7F9F8] mx-auto flex flex-col lg:flex-row gap-8 lg:gap-16">
             <div className="flex flex-col w-full lg:w-1/2 gap-6">
               <h1 className="font-poppins font-semibold text-[40px] leading-[120%] text-[#040404] text-center lg:text-left">
                 Kosoku is your detailing automation partner
@@ -230,8 +230,8 @@ const logos = [
                 We build plug-and-play Tekla tools, macros, and APIs that reduce manual work, speed up delivery, and help you scale operations with ease. We solve structural steel problems with automation.
               </p>
             </div>
+            
             <div className="flex flex-col w-full lg:w-1/2 gap-6">
-
               <div className="flex flex-wrap lg:flex-nowrap justify-center gap-6">
                 <StaticCard
                   number="100+"
@@ -248,6 +248,7 @@ const logos = [
                   bgColor="bg-white"
                 />
               </div>
+              
               <div className="flex justify-center">
                 <StaticCard
                   number="15+"

@@ -63,7 +63,7 @@ export default function Navbar({ menuOpen, setMenuOpen }: NavbarProps) {
         <li><Link href="/faq">FAQ</Link></li>
         <li>
         <button className="max-w-[121px] h-[41px] px-4 py-3 bg-white/25 rounded-lg flex justify-center items-center gap-2 hover:bg-white/50">
-            <span className="block text-white text-nowrap text-[14px] sm:text-sm md:text-[12px] font-semibold font-poppins leading-[120%] tracking-normal text-center">
+            <span className="block text-white text-nowrap text-[14px] sm:text-sm md:text-[14px] lg:[14px] font-semibold font-poppins leading-[120%] tracking-normal text-center">
               Get in Touch
             </span>
           </button>
